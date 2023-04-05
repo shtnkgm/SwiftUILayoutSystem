@@ -15,7 +15,15 @@ struct ExImage: View {
 
 struct ExImage_Previews: PreviewProvider {
     static var previews: some View {
-        ExImage()
-            .previewLayout(.fixed(width: 200, height: 200))
+        HStack {
+            Image(systemName: "moon")
+                .border(.red)
+                .frame(width: 100, height: 100)
+            Image(systemName: "moon")
+                .resizable() // resizable
+                .border(.red)
+                .frame(width: 100, height: 100)
+        }
+        .previewLayout(.sizeThatFits)
     }
 }

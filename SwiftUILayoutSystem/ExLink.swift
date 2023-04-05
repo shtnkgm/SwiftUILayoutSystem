@@ -10,6 +10,7 @@ import SwiftUI
 struct ExLink: View {
     var body: some View {
         Link("Link", destination: URL(string: "https://developer.apple.com/")!)
+            .border(.red)
     }
 }
 

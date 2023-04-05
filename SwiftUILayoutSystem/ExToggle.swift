@@ -14,6 +14,7 @@ struct ExToggle: View {
         Toggle(isOn: $isOn) {
             Text("Toggle")
         }
+        .border(.red)
     }
 }
 

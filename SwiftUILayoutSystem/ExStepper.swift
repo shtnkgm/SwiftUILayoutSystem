@@ -12,6 +12,7 @@ struct ExStepper: View {
     
     var body: some View {
         Stepper("Stepper", value: $value)
+            .border(.red)
     }
 }
 

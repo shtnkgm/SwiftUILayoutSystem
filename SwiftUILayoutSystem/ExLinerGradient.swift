@@ -14,6 +14,7 @@ struct ExLinerGradient: View {
             startPoint: .top,
             endPoint: .bottom
         )
+        .border(.red)
     }
 }
 

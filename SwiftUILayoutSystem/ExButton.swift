@@ -14,6 +14,7 @@ struct ExButton: View {
         } label: {
             Text("Button")
         }
+        .border(.red)
     }
 }
 

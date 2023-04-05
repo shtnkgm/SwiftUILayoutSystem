@@ -10,6 +10,7 @@ import SwiftUI
 struct ExRectangle: View {
     var body: some View {
         Rectangle()
+            .border(.red)
     }
 }
 

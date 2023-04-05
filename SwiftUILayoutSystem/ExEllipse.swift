@@ -10,6 +10,7 @@ import SwiftUI
 struct ExEllipse: View {
     var body: some View {
         Ellipse()
+            .border(.red)
     }
 }
 

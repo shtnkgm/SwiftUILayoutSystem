@@ -10,6 +10,7 @@ import SwiftUI
 struct ExCircle: View {
     var body: some View {
         Circle()
+            .border(.red)
     }
 }
 

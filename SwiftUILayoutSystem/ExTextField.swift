@@ -12,6 +12,7 @@ struct ExTextField: View {
     
     var body: some View {
         TextField("TextField", text: $text)
+            .border(.red)
     }
 }
 

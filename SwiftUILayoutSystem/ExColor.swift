@@ -10,11 +10,13 @@ import SwiftUI
 struct ExColor: View {
     var body: some View {
         Color.yellow
+            .border(.red)
     }
 }
 
 struct ExColor_Previews: PreviewProvider {
     static var previews: some View {
         ExColor()
+            .previewLayout(.fixed(width: 200, height: 200))
     }
 }

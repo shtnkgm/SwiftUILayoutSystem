@@ -10,6 +10,8 @@ import SwiftUI
 struct ExProgressView: View {
     var body: some View {
         ProgressView()
+            .progressViewStyle(.linear)
+            .border(.red)
     }
 }
 

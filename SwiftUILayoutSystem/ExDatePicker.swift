@@ -16,6 +16,7 @@ struct ExDatePicker: View {
             selection: $date,
             displayedComponents: [.date]
         )
+        .border(.red)
     }
 }
 

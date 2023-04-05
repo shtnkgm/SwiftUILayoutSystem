@@ -10,6 +10,7 @@ import SwiftUI
 struct ExCapsule: View {
     var body: some View {
         Capsule()
+            .border(.red)
     }
 }
 

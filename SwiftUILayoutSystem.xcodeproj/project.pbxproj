@@ -36,6 +36,9 @@
 		DA0C3C0729DD048A00079BCD /* ExGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0C3C0629DD048A00079BCD /* ExGeometryReader.swift */; };
 		DA0C3C0929DD04F500079BCD /* ExImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0C3C0829DD04F500079BCD /* ExImage.swift */; };
 		DA0C3C0B29DD062D00079BCD /* ExRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0C3C0A29DD062D00079BCD /* ExRectangle.swift */; };
+		DA1D27BD29DD9E9F0095EDFF /* ExLayoutPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1D27BC29DD9E9F0095EDFF /* ExLayoutPriority.swift */; };
+		DA1D27BF29DDA6010095EDFF /* ExMaxWidth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1D27BE29DDA6010095EDFF /* ExMaxWidth2.swift */; };
+		DA1D27C129DDA6D30095EDFF /* ExMaxWidth3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1D27C029DDA6D30095EDFF /* ExMaxWidth3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +72,9 @@
 		DA0C3C0629DD048A00079BCD /* ExGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExGeometryReader.swift; sourceTree = "<group>"; };
 		DA0C3C0829DD04F500079BCD /* ExImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExImage.swift; sourceTree = "<group>"; };
 		DA0C3C0A29DD062D00079BCD /* ExRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExRectangle.swift; sourceTree = "<group>"; };
+		DA1D27BC29DD9E9F0095EDFF /* ExLayoutPriority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExLayoutPriority.swift; sourceTree = "<group>"; };
+		DA1D27BE29DDA6010095EDFF /* ExMaxWidth2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExMaxWidth2.swift; sourceTree = "<group>"; };
+		DA1D27C029DDA6D30095EDFF /* ExMaxWidth3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExMaxWidth3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,9 @@
 				DA0C3C0029DCFE8300079BCD /* ExLazyHStack.swift */,
 				DA0C3C0629DD048A00079BCD /* ExGeometryReader.swift */,
 				DA0C3C0429DD003400079BCD /* ExMaxWidth.swift */,
+				DA1D27BE29DDA6010095EDFF /* ExMaxWidth2.swift */,
+				DA1D27C029DDA6D30095EDFF /* ExMaxWidth3.swift */,
+				DA1D27BC29DD9E9F0095EDFF /* ExLayoutPriority.swift */,
 				DA0C3BD029DCF3B200079BCD /* Assets.xcassets */,
 				DA0C3BD229DCF3B200079BCD /* Preview Content */,
 			);
@@ -228,6 +237,7 @@
 				DA0C3BCF29DCF3B000079BCD /* ContentView.swift in Sources */,
 				DA0C3BFD29DCFE1000079BCD /* ExHStack.swift in Sources */,
 				DA0C3C0529DD003400079BCD /* ExMaxWidth.swift in Sources */,
+				DA1D27BF29DDA6010095EDFF /* ExMaxWidth2.swift in Sources */,
 				DA0C3BE729DCF77700079BCD /* ExLink.swift in Sources */,
 				DA0C3BE329DCF69D00079BCD /* ExButton.swift in Sources */,
 				DA0C3C0129DCFE8300079BCD /* ExLazyHStack.swift in Sources */,
@@ -237,7 +247,9 @@
 				DA0C3BF329DCFA8A00079BCD /* ExLinerGradient.swift in Sources */,
 				DA0C3C0729DD048A00079BCD /* ExGeometryReader.swift in Sources */,
 				DA0C3C0329DCFFAB00079BCD /* ExAngularGradient.swift in Sources */,
+				DA1D27C129DDA6D30095EDFF /* ExMaxWidth3.swift in Sources */,
 				DA0C3C0B29DD062D00079BCD /* ExRectangle.swift in Sources */,
+				DA1D27BD29DD9E9F0095EDFF /* ExLayoutPriority.swift in Sources */,
 				DA0C3BFB29DCFD2A00079BCD /* ExVStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

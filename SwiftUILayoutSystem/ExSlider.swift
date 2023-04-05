@@ -12,6 +12,7 @@ struct ExSlider: View {
     
     var body: some View {
         Slider(value: $value)
+            .border(.red)
     }
 }
 

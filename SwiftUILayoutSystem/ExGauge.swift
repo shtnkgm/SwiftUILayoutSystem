@@ -12,6 +12,7 @@ struct ExGauge: View {
         Gauge(value: 0.5) {
             Text("Gauge")
         }
+        .border(.red)
     }
 }
 

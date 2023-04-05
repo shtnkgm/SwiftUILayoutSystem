@@ -10,6 +10,7 @@ import SwiftUI
 struct ExText: View {
     var body: some View {
         Text("Text")
+            .border(.red)
     }
 }
 

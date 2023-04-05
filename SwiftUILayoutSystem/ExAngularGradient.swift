@@ -10,6 +10,7 @@ import SwiftUI
 struct ExAngularGradient: View {
     var body: some View {
         AngularGradient(colors: [.blue, .green], center: .center)
+            .border(.red)
     }
 }
 

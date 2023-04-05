@@ -12,6 +12,7 @@ struct ExScrollView: View {
         ScrollView {
             Text("ScrollView")
         }
+        .border(.red)
     }
 }
 
