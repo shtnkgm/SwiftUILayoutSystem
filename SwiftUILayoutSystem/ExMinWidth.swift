@@ -1,13 +1,13 @@
 //
-//  ExMaxWidth.swift
+//  ExMinWidth.swift
 //  SwiftUILayoutSystem
 //
-//  Created by Shota Nakagami on 2023/04/05.
+//  Created by Shota Nakagami on 2023/04/06.
 //
 
 import SwiftUI
 
-struct ExMaxWidth: View {
+struct ExMinWidth: View {
     var body: some View {
         VStack(spacing: 8) {
             // width
@@ -17,14 +17,13 @@ struct ExMaxWidth: View {
             Color.yellow
                 .frame(width: 100)
                 .overlay(Text("width = 300"))
-            
-            // maxWidth
+            // minWidth
             Color.yellow
-                .frame(maxWidth: 300)
-                .overlay(Text("max = 300"))
+                .frame(minWidth: 300)
+                .overlay(Text("min = 300"))
             Color.yellow
-                .frame(maxWidth: 100)
-                .overlay(Text("max = 100"))
+                .frame(minWidth: 100)
+                .overlay(Text("min = 100"))
         }
         .frame(width: 200, height: 200)
         .border(.blue)
@@ -36,8 +35,8 @@ struct ExMaxWidth: View {
     }
 }
 
-struct ExMaxWidth_Previews: PreviewProvider {
+struct ExMinWidth_Previews: PreviewProvider {
     static var previews: some View {
-        ExMaxWidth()
+        ExMinWidth()
     }
 }
