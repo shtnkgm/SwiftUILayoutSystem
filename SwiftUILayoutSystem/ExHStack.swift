@@ -42,5 +42,6 @@ struct ExHStack: View {
 struct ExHStack_Previews: PreviewProvider {
     static var previews: some View {
         ExHStack()
+            .previewLayout(.fixed(width: 300, height: 300))
     }
 }

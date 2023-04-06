@@ -7,15 +7,23 @@
 
 import SwiftUI
 
+
+
+
+
 struct SampleNG: View {
     var body: some View {
-        VStack {
-            HStack {
-                Text("TitleTitleTitleTitleTitle")
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                Text("Subtitle")
-                    .frame(maxWidth: 100, alignment: .trailing)
-            }
+        HStack {
+            Text("TitleTitleTitleTitleTitle")
+                .frame(
+                    maxWidth: .infinity,
+                    alignment: .leading
+                )
+            Text("Subtitle")
+                .frame(
+                    maxWidth: 100,
+                    alignment: .trailing
+                )
         }
     }
 }

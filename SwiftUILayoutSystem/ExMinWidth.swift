@@ -17,6 +17,7 @@ struct ExMinWidth: View {
             Color.yellow
                 .frame(width: 100)
                 .overlay(Text("width = 300"))
+            
             // minWidth
             Color.yellow
                 .frame(minWidth: 300)

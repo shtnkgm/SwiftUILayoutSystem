@@ -16,7 +16,13 @@ struct ExColor: View {
 
 struct ExColor_Previews: PreviewProvider {
     static var previews: some View {
-        ExColor()
-            .previewLayout(.fixed(width: 200, height: 200))
+        Color.yellow
+            .border(.red)
+            .previewLayout(
+                .fixed(
+                    width: 200,
+                    height: 200
+                )
+            )
     }
 }
