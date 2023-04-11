@@ -16,7 +16,7 @@ struct ExIdealWidth: View {
                 .overlay(Text("width = 300"))
             Color.yellow
                 .frame(width: 100)
-                .overlay(Text("width = 300"))
+                .overlay(Text("width = 100"))
             // idealWidth
             Color.yellow
                 .frame(idealWidth: 300)

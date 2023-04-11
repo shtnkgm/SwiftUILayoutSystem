@@ -16,7 +16,7 @@ struct ExMaxWidth: View {
                 .overlay(Text("width = 300"))
             Color.yellow
                 .frame(width: 100)
-                .overlay(Text("width = 300"))
+                .overlay(Text("width = 100"))
             
             // maxWidth
             Color.yellow
